@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Webpage</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h2>Student Grade Management System</h2>
+    <form id="gradeform">
+        Username:
+        <input type = "text" id="name" placeholder = "Enter your name" required >
+        <br><br>
+        Roll no:
+        <input type = "number" id="roll" placeholder = "Enter your roll no" required>
+        <br><br>
+        M1:
+        <input type ="number" id="m1" placeholder = "Enter the marks of m1" required>
+        <br><br>
+        M2:
+        <input type ="number" id="m2" placeholder = "Enter the marks of m2" required>
+        <br><br>
+        M3:
+        <input type ="number" id="m3" placeholder = "Enter the marks of m3" required>
+        <br><br>
+        <input type = "submit" value = "Calculate the grade">
+        <input type = "clear" value = "reset">
+
+
+    </form>
+    <h2>Result calculation</h2>
+    <p id="result"></p>
+    <script src="script.js"></script>
+    
+</body>
+</html>
